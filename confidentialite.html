@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confidentialité — Cloud Release Control Tower</title>
+<meta name="theme-color" content="#0b1530">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="pages.css">
+</head>
+<body>
+<header class="band">
+  <a class="brand" href="./"><img src="favicon.svg" width="30" height="30" alt="">Cloud Release Control Tower</a>
+</header>
+
+<main>
+  <h1>Confidentialité</h1>
+
+  <h2>Ce site</h2>
+  <ul>
+    <li>Pas de cookie, pas de mesure d'audience, pas de publicité, pas de formulaire.</li>
+    <li>Les polices sont servies par le site lui-même : aucune requête vers un service de polices.</li>
+    <li>Pour afficher le numéro de la dernière version, la page interroge l'API publique de GitHub
+      (<code>api.github.com</code>). Rien n'est envoyé d'autre, rien n'est gardé dans ton navigateur.</li>
+    <li>Le site est servi par GitHub Pages. Comme pour toute page de GitHub Pages, GitHub enregistre l'adresse IP
+      des visiteurs pour la sécurité du service : voir la
+      <a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement">déclaration de
+      confidentialité de GitHub</a>. Les téléchargements passent par les releases GitHub, dans les mêmes conditions.</li>
+  </ul>
+
+  <h2>L'application</h2>
+  <ul>
+    <li>Pas de compte, pas de serveur Control Tower, pas de télémétrie, pas de vérification de mise à jour.</li>
+    <li>L'app parle directement à tes clusters, à AWS, à GitLab et à Jira, depuis ton poste et avec tes droits.
+      Elle ne fait que des lectures.</li>
+    <li>Tes tokens GitLab et Jira restent sur ton poste, dans un fichier de l'app (<code>crct-secrets.json</code>)
+      lisible par ton compte seulement. « Déconnecter » l'efface.</li>
+    <li>Avec Copilot, ta question et ce que les outils de l'app ont lu partent vers GitHub Copilot, par ton propre
+      compte, secrets masqués. Sans Copilot, rien ne part.</li>
+  </ul>
+
+  <h2>Une question ?</h2>
+  <p>Écris-nous à l'adresse donnée dans les <a href="mentions-legales.html#contact">mentions légales</a>.
+  Tu peux aussi saisir la CNIL (<a href="https://www.cnil.fr/">cnil.fr</a>).</p>
+
+  <p class="back"><a href="./">Retour à l'accueil</a> · <a href="mentions-legales.html">Mentions légales</a></p>
+</main>
+
+<footer class="band">
+  <span class="name">Cloud Release Control Tower</span>
+  <span>© 2026 ALPHA SOLUTIONS IT</span>
+</footer>
+</body>
+</html>
